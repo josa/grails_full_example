@@ -1,0 +1,8 @@
+<classpathentry kind="lib" path="~/.grails/ivy-cache/org.springframework.uaa/org.springframework.uaa.client/bundles/org.springframework.uaa.client-1.0.1.RELEASE.jar"/>
+
+
+find ~/.grails/ivy-cache/  -type f -name "*.jar" | xargs -0 -I entry echo entry >> .classpathtmp
+
+for i in find ~/.grails/ivy-cache/  -type f -name "*.jar"; do echo "bla $i"; done
+
+cat .classpath | grep classpathentry

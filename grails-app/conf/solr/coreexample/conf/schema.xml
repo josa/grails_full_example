@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+
+<schema name="example core one" version="1.1">
+	<types>
+		<fieldtype name="string" class="solr.StrField" sortMissingLast="true" omitNorms="true" />
+		<fieldType name="date" class="solr.TrieDateField" omitNorms="true" precisionStep="0" positionIncrementGap="0"/>
+	</types>
+
+	<fields>
+		<field name="id" type="string" indexed="true" stored="true" multiValued="false" required="true" />
+		<field name="name" type="string" indexed="true" stored="true" multiValued="false" required="true" />
+		<field name="createdAt" type="date" indexed="false" stored="true" multiValued="false" />
+	</fields>
+
+	<uniqueKey>id</uniqueKey>
+
+	<defaultSearchField>name</defaultSearchField>
+
+	<solrQueryParser defaultOperator="OR" />
+	
+</schema>

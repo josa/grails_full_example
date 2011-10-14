@@ -88,3 +88,7 @@ log4j = {
            'org.hibernate',
            'net.sf.ehcache.hibernate'
 }
+
+solr {
+	url = "http://localhost:8983/solr/coreexample"
+}

@@ -13,7 +13,6 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="con" path="com.springsource.sts.grails.core.CLASSPATH_CONTAINER"/>
 	<classpathentry exported="true" kind="con" path="GROOVY_SUPPORT"/>
-	<classpathentry kind="output" path="web-app/WEB-INF/classes"/>
 	<classpathentry kind="lib" path="/home/josa/.grails/2.0.0.M2/projects/grails_full_example/plugin-classes"/>
 	<classpathentry kind="lib" path="/home/josa/.grails/ivy-cache/org.hibernate.java-persistence/jpa-api/jars/jpa-api-2.0-cr-1.jar"/>
 	<classpathentry kind="lib" path="/home/josa/.grails/ivy-cache/org.apache.maven.wagon/wagon-file/jars/wagon-file-1.0-beta-6.jar"/>
@@ -107,7 +106,7 @@
 	<classpathentry kind="lib" path="/home/josa/.grails/ivy-cache/org.grails/grails-plugin-logging/jars/grails-plugin-logging-2.0.0.M2.jar"/>
 	<classpathentry kind="lib" path="/home/josa/.grails/ivy-cache/org.grails/grails-datastore-gorm-test/jars/grails-datastore-gorm-test-1.0.0.M8.jar"/>
 	<classpathentry kind="lib" path="/home/josa/.grails/ivy-cache/org.grails/grails-crud/jars/grails-crud-2.0.0.M2.jar"/>
-	<classpathentry kind="lib" path="/home/josa/.grails/ivy-cache/org.grails/grails-plugin-testing/jars/grails-plugin-testing-2.0.0.M2.jar"/>
+	<classpathentry kind="lib" path="/home/josa/.grails/ivy-cache/org.grails/grails-plugin-testing/jars/grails-plugin-testing-2.0.0.M2.jar" sourcepath="/home/josa/tools/grails-2.0.0.M2/src/grails-plugin-testing-2.0.0.M2-sources.jar"/>
 	<classpathentry kind="lib" path="/home/josa/.grails/ivy-cache/org.grails/grails-spring/jars/grails-spring-2.0.0.M2.jar"/>
 	<classpathentry kind="lib" path="/home/josa/.grails/ivy-cache/org.grails/grails-plugin-converters/jars/grails-plugin-converters-2.0.0.M2.jar"/>
 	<classpathentry kind="lib" path="/home/josa/.grails/ivy-cache/org.grails/grails-plugin-codecs/jars/grails-plugin-codecs-2.0.0.M2.jar"/>
@@ -172,4 +171,5 @@
 	<classpathentry kind="lib" path="/home/josa/.grails/ivy-cache/org.tmatesoft.svnkit/svnkit/jars/svnkit-1.3.5.jar"/>
 	<classpathentry kind="lib" path="/home/josa/.grails/ivy-cache/org.tmatesoft.svnkit/svnkit/jars/svnkit-1.3.4.jar"/>
 	<classpathentry kind="lib" path="/home/josa/.grails/ivy-cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.8.0.jar"/>
+	<classpathentry kind="output" path="web-app/WEB-INF/classes"/>
 </classpath>

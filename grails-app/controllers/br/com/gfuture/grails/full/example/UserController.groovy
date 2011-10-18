@@ -26,7 +26,7 @@ class UserController {
             return
         }
 
-		userInstance.indexSolr();
+		userInstance.solrIndex();
 		flash.message = message(code: 'default.created.message', args: [message(code: 'user.label', default: 'User'), userInstance.id])
         redirect(action: "show", id: userInstance.id)
     }
@@ -78,7 +78,7 @@ class UserController {
             render(view: "edit", model: [userInstance: userInstance])
             return
         }
-		userInstance.indexSolr();
+		userInstance.solrIndex();
 
 		flash.message = message(code: 'default.updated.message', args: [message(code: 'user.label', default: 'User'), userInstance.id])
         redirect(action: "show", id: userInstance.id)

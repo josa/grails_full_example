@@ -4,8 +4,6 @@ GRAILS_VERSION="2.0.0.M2"
 rm -fv .tmp
 rm -fv .classpath.final
 
-grails clean
-grails compile
 echo '<?xml version="1.0" encoding="UTF-8"?>' > .classpath.final
 echo '<classpath>' >> .classpath.final
 cat .classpath | grep classpathentry | egrep -v  'classpathentry kind="lib"' | egrep -v plugin-classes >> .classpath.final
